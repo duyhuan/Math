@@ -12,6 +12,11 @@
 		E23C50C01E1CDBA10049585D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23C50BE1E1CDBA10049585D /* Main.storyboard */; };
 		E23C50C21E1CDBA10049585D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23C50C11E1CDBA10049585D /* Assets.xcassets */; };
 		E23C50C51E1CDBA10049585D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23C50C31E1CDBA10049585D /* LaunchScreen.storyboard */; };
+		E23C50D21E1CE2EE0049585D /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = E23C50CD1E1CE2EE0049585D /* board.png */; };
+		E23C50D31E1CE2EE0049585D /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E23C50CE1E1CE2EE0049585D /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */; };
+		E23C50D41E1CE2EE0049585D /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = E23C50CF1E1CE2EE0049585D /* note1.png */; };
+		E23C50D51E1CE2EE0049585D /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = E23C50D01E1CE2EE0049585D /* note2.png */; };
+		E23C50D61E1CE2EE0049585D /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = E23C50D11E1CE2EE0049585D /* note3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E23C50C11E1CDBA10049585D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E23C50C41E1CDBA10049585D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E23C50C61E1CDBA10049585D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23C50CD1E1CE2EE0049585D /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		E23C50CE1E1CE2EE0049585D /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; sourceTree = "<group>"; };
+		E23C50CF1E1CE2EE0049585D /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		E23C50D01E1CE2EE0049585D /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		E23C50D11E1CE2EE0049585D /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +70,21 @@
 				E23C50C11E1CDBA10049585D /* Assets.xcassets */,
 				E23C50C31E1CDBA10049585D /* LaunchScreen.storyboard */,
 				E23C50C61E1CDBA10049585D /* Info.plist */,
+				E23C50CC1E1CE2DD0049585D /* Resource */,
 			);
 			path = Math;
+			sourceTree = "<group>";
+		};
+		E23C50CC1E1CE2DD0049585D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E23C50CD1E1CE2EE0049585D /* board.png */,
+				E23C50CE1E1CE2EE0049585D /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */,
+				E23C50CF1E1CE2EE0049585D /* note1.png */,
+				E23C50D01E1CE2EE0049585D /* note2.png */,
+				E23C50D11E1CE2EE0049585D /* note3.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +114,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = techmaster;
 				TargetAttributes = {
 					E23C50B61E1CDBA10049585D = {
@@ -123,9 +146,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23C50D21E1CE2EE0049585D /* board.png in Resources */,
 				E23C50C51E1CDBA10049585D /* LaunchScreen.storyboard in Resources */,
 				E23C50C21E1CDBA10049585D /* Assets.xcassets in Resources */,
+				E23C50D51E1CE2EE0049585D /* note2.png in Resources */,
+				E23C50D41E1CE2EE0049585D /* note1.png in Resources */,
+				E23C50D61E1CE2EE0049585D /* note3.png in Resources */,
 				E23C50C01E1CDBA10049585D /* Main.storyboard in Resources */,
+				E23C50D31E1CE2EE0049585D /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +209,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -230,6 +259,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -297,6 +327,7 @@
 				E23C50CB1E1CDBA10049585D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
